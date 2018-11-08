@@ -1,0 +1,18 @@
+# HELP probe_dns_lookup_time_seconds helptext
+# TYPE probe_dns_lookup_time_seconds gauge
+probe_dns_lookup_time_seconds 0.002350577
+probe_duration_seconds 0.18068041
+probe_failed_due_to_regex 0
+probe_http_content_length 987
+probe_http_duration_seconds{phase="connect",foo="BAR"} 0.000596381
+probe_http_duration_seconds{phase="processing"} 0.004885495
+probe_http_duration_seconds{phase="resolve"} 0.002350577
+probe_http_duration_seconds{phase="tls"} 0.17233831
+probe_http_duration_seconds{phase="transfer"} 7.3451e-05
+probe_http_redirects 0
+probe_http_ssl 1
+probe_http_status_code 200
+probe_http_version 1.1
+probe_ip_protocol 4
+probe_ssl_earliest_cert_expiry 1.590835718e+09
+probe_success 1
